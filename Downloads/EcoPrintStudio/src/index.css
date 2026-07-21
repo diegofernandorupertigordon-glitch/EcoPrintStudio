@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* ─── Tailwind v4 Theme (colores, fuentes, radios) ─── */
+@theme {
+  /* Colores personalizados */
+  --color-dark-bg: #0b0d12;
+  --color-accent-blue: #1a6ef5;
+
+  /* Tipografía */
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, -apple-system, Segoe UI,
+    Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* ─── Variables CSS globales (componentes JSX) ─── */
+:root {
+  --background: #0b0d12;
+  --foreground: #e6eaf4;
+
+  --card: #12151e;
+  --card-foreground: #e6eaf4;
+
+  --popover: #12151e;
+  --popover-foreground: #e6eaf4;
+
+  --primary: #1a6ef5;
+  --primary-foreground: #ffffff;
+
+  --secondary: #1c2030;
+  --secondary-foreground: #c8cfe0;
+
+  --muted: #1c2030;
+  --muted-foreground: #7a85a0;
+
+  --accent: #1a6ef5;
+  --accent-foreground: #ffffff;
+
+  --destructive: #e03e3e;
+  --destructive-foreground: #ffffff;
+
+  --border: rgba(255, 255, 255, 0.08);
+
+  --input: transparent;
+  --input-background: #1c2030;
+  --switch-background: #3a4260;
+
+  --ring: #1a6ef5;
+
+  --radius: 0.25rem;
+
+  --chart-1: #1a6ef5;
+  --chart-2: #3b9eff;
+  --chart-3: #60b8ff;
+  --chart-4: #8ecfff;
+  --chart-5: #b8e4ff;
+}
+
+
